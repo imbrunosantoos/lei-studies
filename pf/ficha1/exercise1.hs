@@ -20,7 +20,7 @@ perimCirc r = 2*pi*r
 ´e um par de valores do tipo Double.
 -}
 dist :: (Double, Double) -> ( Double, Double) -> Double
-dist (x1, x2) (y1,y2) = sqrt((x1-x2)^2+(y1-y2)^2) 
+dist (x1, y1) (x2, y2) = sqrt((x1-x2)^2+(y1-y2)^2)
 
 {-
 (c) primUlt – que recebe uma lista e devolve um par com o primeiro e o ´ultimo
